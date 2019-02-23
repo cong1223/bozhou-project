@@ -1,0 +1,92 @@
+.modifyInfo .title{
+    width: 100vw;
+    height: .88rem;
+    background-color: #DE4D4E;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    position: relative;
+}
+.modifyInfo .title span{
+    margin-left: .27rem;
+    font-size: .24rem;
+}
+.modifyInfo .title h3{
+    width: 2.1rem;
+    font-size: .34rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+form{
+    width: 100vw;
+}
+form .seg{
+    height: .32rem;
+    width: 100vw;
+    background-color: #ebebeb;
+}
+form>div{
+    height: 1.05rem;
+    display: flex;
+    align-items: center;
+}
+.phoneSymbol{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/phone.png');
+    background-size: cover;
+    margin-left: 1.12rem;
+    margin-right: .15rem;
+}
+.wechatSymbol{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/wechat.png');
+    background-size: cover;
+    margin-left: .1rem;
+    margin-right: .15rem;
+    margin-left: 1.12rem;
+}
+.emailSymbol{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/email.png');
+    background-size: cover;
+    margin-left: .1rem;
+    margin-right: .15rem;
+    margin-left: 1.12rem;
+}
+.pswSymbol{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/psw.png');
+    background-size: cover;
+    margin-left: .1rem;
+    margin-right: .15rem;
+    margin-left: 1.12rem;
+}
+.visibleSymbol{
+    width: .44rem;
+    height: .25rem;
+    background-image: url('../images/visible.png');
+    background-size: cover;
+    position: absolute;
+    right: 1.01rem;
+}
+form input::-webkit-input-placeholder {
+    /* placeholder颜色  */
+    color: rgba(201,199,199,1);
+    /* placeholder字体大小  */
+    font-size: .24rem;
+}
+.submit-btn{
+    width: 5.78rem;
+    height: .88rem;
+    margin: .82rem 0 0 .86rem;
+    background-color: #FF6363;
+    border-radius: .1rem;
+    font-size: .34rem;
+    font-weight: bold;
+    color: rgba(248,230,230,1);
+}

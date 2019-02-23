@@ -1,0 +1,251 @@
+.approvalLevelUp h3.title{
+    width: 100vw;
+    height: .92rem;
+    background-color: #de4d4e;
+    text-align: center;
+    line-height: .92rem;
+    font-size: .34rem;
+    color: #ffffff;
+}
+.approvalLevelUp .searchPartner{
+    width: 7.11rem;
+    height: 2.91rem;
+    background-color: #F7F2F2;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    position: relative;
+}
+.approvalLevelUp .searchPartner label{
+    position: absolute;
+    top: .22rem;
+    left: .64rem;
+}
+.approvalLevelUp .searchPartner .searchArea{
+    width: 3.1rem;
+    height: .48rem;
+    border: .01rem solid rgba(182,177,177,1);
+    border-radius: .24rem;
+    position: absolute;
+    top: .69rem;
+    left: .57rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.approvalLevelUp .searchPartner .searchArea input{
+    background-color: transparent;
+    width: 1.5rem;
+    height: .3rem;
+}
+.approvalLevelUp .searchPartner .searchArea input::-webkit-input-placeholder {
+    /* placeholder颜色  */
+    color: #aab2bd;
+    /* placeholder字体大小  */
+    font-size: .22rem;
+    /* placeholder位置  */
+    text-align: center;
+}
+.approvalLevelUp .searchPartner button{
+    width: 1.45rem;
+    height: .78rem;
+    position: absolute;
+    top: .54rem;
+    left: 5.1rem;
+    background-color: rgba(222,77,78,1);
+    border-radius: .25rem;
+    font-size: .34rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+.approvalLevelUp .searchPartner .partnerInfo{
+    position: absolute;
+    top: 1.59rem;
+    left: .77rem;
+}
+.approvalLevelUp .searchPartner .partnerInfo .cover{
+    position: relative;
+    display: flex;
+}
+.approvalLevelUp .searchPartner .partnerInfo .photo{
+    width: .99rem;
+    height: .99rem;
+    background:rgba(182,177,177,1);
+    border-radius:50%;
+    float: left;
+}
+.approvalLevelUp .searchPartner .partnerInfo .description{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: .99rem;
+    margin-left: .23rem;
+}
+.approvalLevelUp .searchPartner .tip{
+    font-size: .32rem;
+    font-weight: 300;
+    margin: .3rem 0 0 1rem;
+}
+.approvalLevelUp .progress{
+    width: 7.11rem;
+    height: 7.43rem;
+    background-color: #F7F2F2;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3);
+    margin: .57rem auto;
+    overflow: hidden;
+    position: relative;
+}
+.approvalLevelUp .progress .btn{
+    width: 3.36rem;
+    height: .78rem;
+    margin: .25rem auto;
+    display: flex;
+    border-radius: .3rem;
+    background: rgba(222,77,78,1);
+}
+.approvalLevelUp .progress .btn div{
+    width: 3.36rem;
+    height: .78rem;
+    text-align: center;
+    line-height: .78rem;
+    color: #ffffff;
+    font-size: .28rem;
+}
+.approvalLevelUp .progress .partnerInfo{
+    width: 6.5rem;
+    height: 1.2rem;
+    display: flex;
+    align-content: center;
+    margin: .27rem auto;
+    border-bottom: .01rem solid rgba(215,210,210,1);
+    position: relative;
+}
+.approvalLevelUp .progress .partnerInfo:nth-child(2){
+    margin-top: .24rem;
+}
+.approvalLevelUp .progress .partnerInfo:nth-child(5){
+    border-bottom: none;
+}
+.approvalLevelUp .progress .partnerInfo .photo{
+    width: .99rem;
+    height: .99rem;
+    background:rgba(182,177,177,1);
+    border-radius:50%;
+    float: left;
+    margin-left: .5rem;
+}
+.approvalLevelUp .progress .partnerInfo .description{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: .99rem;
+    margin-left: .23rem;
+}
+.approvalLevelUp .progress .partnerInfo .choose{
+    width: 1.8rem;
+    height: .45rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    top: .2rem;
+}
+.approvalLevelUp .progress .partnerInfo .choose>div{
+    height: .45rem;
+    width: .82rem;
+    float: left;
+    text-align: center;
+    line-height: .45rem;
+    font-size: .24rem;
+    font-weight: 300;
+    color: rgba(38,36,36,1);
+    background:rgba(222,77,78,1);
+    border: .01 solid rgba(253,252,255,1);
+    border-radius: .23rem;
+}
+.approvalLevelUp .progress .partnerInfo .choose>div.comfirm{
+    background:rgba(255,255,255,1);
+    border: .01rem solid rgba(238,53,54,1);
+}
+.approvalLevelUp .progress .btn div.active{
+    background:rgba(255,255,255,1);
+    border:.01rem solid rgba(238,53,54,1);
+    border-radius: .3rem;
+    color: rgba(238,53,54,1);
+}
+.nav{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: .92rem;
+    box-shadow:0px -2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.nav ul{
+    width: 100vw;
+    height: .92rem;
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: .12rem;
+}
+.nav ul li .homePageSymbol{
+    background-image: url('../images/shengji_grey.png');
+    background-size: cover;
+    width: .47rem;
+    height: .41rem;
+}
+.nav ul li .approvalSymbol{
+    background-image: url('../images/pizhun_grey.png');
+    background-size: cover;
+    width: .47rem;
+    height: .43rem;
+}
+.nav ul li .selfSymbol{
+    background-image: url('../images/geren_grey.png');
+    background-size: cover;
+    width: .47rem;
+    height: .43rem;
+}
+.nav ul li .linkSymbol{
+    background-image: url('../images/tuijian_grey.png');
+    background-size: cover;
+    width: .47rem;
+    height: .43rem;
+}
+.nav ul li span{
+    font-size: .2rem;
+    color:rgba(143,143,143,1);
+    font-weight: 300;
+    margin-top: .1rem;
+}
+.nav ul li div.active0{
+    background-image: url('../images/shengji.png');
+}
+.nav ul li div.active1{
+    background-image: url('../images/pizhun.png');
+}
+.nav ul li div.active2{
+    background-image: url('../images/geren.png');
+}
+.nav ul li div.active3{
+    background-image: url('../images/tuijian.png');
+}
+.nav ul li .addStyle0{
+    color: rgba(255,0,0,1);
+}
+.nav ul li .addStyle1{
+    color: rgba(255,0,0,1);
+}
+.nav ul li .addStyle2{
+    color: rgba(255,0,0,1);
+}
+.nav ul li .active{
+    color: rgba(255,0,0,1);
+}

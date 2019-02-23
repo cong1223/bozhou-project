@@ -1,0 +1,173 @@
+*{
+    font-family: 'MicrosoftYaHei';
+}
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/login-bg.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.logo{
+    width: 1.9rem;
+    height: 1.88rem;
+    background-image: url('../images/logo.png');
+    background-size: cover;
+    position: absolute;
+    top: .69rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn{
+    width: 4.34rem;
+    height: .8rem;
+    position: absolute;
+    top: 2.87rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background:rgba(10,10,10,0.15);
+    border-radius:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log{
+    width: 2.11rem;
+    height: .66rem;
+    font-size: .24rem;
+    font-weight: bold;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: .66rem;
+}
+.reg{
+    width: 2.11rem;
+    height: .66rem;
+    font-size: .24rem;
+    font-weight: bold;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: .66rem;
+}
+.active{
+    color:rgba(0,0,0,1);
+    font-size: .24rem;
+    background:rgba(255,255,255,1);
+    border-radius: .33rem;
+}
+.log-page{
+    position: absolute;
+    top: 5.14rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.log-page .phoneArea{
+    display: flex;
+    background:rgba(255,255,255,1);
+    width: 5.47rem;
+    height: .73rem;
+    align-items: center;
+    margin: 0 auto;
+}
+.log-page .phoneArea .pnoneSymbol{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/phone.png');
+    background-size: cover;
+    margin-left: .1rem;
+    margin-right: .15rem;
+}
+.log-page .passwordArea{
+    display: flex;
+    background:rgba(255,255,255,1);
+    width: 5.47rem;
+    height: .73rem;
+    align-items: center;
+    margin-top: .62rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.log-page .passwordArea .pswSymbol{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/psw.png');
+    background-size: cover;
+    margin-left: .1rem;
+    margin-right: .15rem;
+}
+.log-page .passwordArea .visibleSymbol{
+    width: .44rem;
+    height: .25rem;
+    background-image: url('../images/visible.png');
+    background-size: cover;
+    position: absolute;
+    right: .13rem;
+}
+.log-page p{
+    font-size: .24rem;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    text-align: end;
+    margin-top: .1rem;
+}
+.submit-btn{
+    width: 5.78rem;
+    height: .88rem;
+    border-radius: .1rem;
+    margin-top: .53rem;
+    background-color: #ff6363;
+    text-align: center;
+    line-height: .88rem;
+    font-size: .4rem;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.reg-page{
+    display: block;
+    top: 4.06rem;
+}
+.reg-page .reg-pswArea{
+    margin-top: .35rem;
+}
+.reg-page h6{
+    font-size: .24rem;
+    font-weight:bold;
+    color:rgba(248,230,230,1);
+    margin-top: .33rem;
+    text-align: center;
+}
+.log-page .phoneArea .reg-id{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/ID.png');
+    background-size: cover;
+    margin-left: .1rem;
+    margin-right: .15rem;
+}
+.log-page .passwordArea .reg-phone{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/phone.png');
+    background-size: cover;
+    margin-left: .1rem;
+    margin-right: .15rem;
+}
+.log-page .passwordArea .reg-wechat{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/wechat.png');
+    background-size: cover;
+    margin-left: .1rem;
+    margin-right: .15rem;
+}
+.log-page .passwordArea .reg-email{
+    width: .39rem;
+    height: .39rem;
+    background-image: url('../images/email.png');
+    background-size: cover;
+    margin-left: .1rem;
+    margin-right: .15rem;
+}
